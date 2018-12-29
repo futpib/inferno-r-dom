@@ -1,16 +1,16 @@
-# preact-r-dom [![Build Status](https://travis-ci.org/futpib/preact-r-dom.svg?branch=master)](https://travis-ci.org/futpib/preact-r-dom)
+# inferno-r-dom [![Build Status](https://travis-ci.org/futpib/inferno-r-dom.svg?branch=master)](https://travis-ci.org/futpib/inferno-r-dom)
 
-Preact DOM wrapper. ([r-dom](https://github.com/uber/r-dom) fork for Preact).
+Inferno DOM wrapper. ([r-dom](https://github.com/uber/r-dom) fork for Inferno).
 
 ## Usage
 
 ```js
-var preact = require('preact');
-var r = require('preact-r-dom');
+var inferno = require('inferno');
+var r = require('inferno-r-dom');
 
 var AnotherComponent = require('./another-component');
 
-module.exports = class extends preact.Component {
+module.exports = class extends inferno.Component {
   render() {
     return (
       r.div({className: 'example'}, [

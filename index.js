@@ -1,5 +1,5 @@
 'use strict';
-var preact = require('preact');
+var createElement = require('inferno-create-element').createElement;
 var classSet = require('classnames');
 var omit = require('just-omit');
 var elements = require('./elements.js');
@@ -37,12 +37,12 @@ function r(component, properties, children) {
   // When there's only one child, call createElement normally
   // to achieve a minor performance gain
   if (!Array.isArray(children)) {
-    return preact.h(component, props, children);
+    return createElement(component, props, children);
   }
 
   // When many children, use apply to prevent unnecessary key warnings
   var args = createArguments(component, props, children);
-  return preact.h.apply(null, args);
+  return createElement.apply(null, args);
 }
 
 // Wraps the classSet property value with `classnames` library

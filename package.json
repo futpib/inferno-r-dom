@@ -1,8 +1,8 @@
 {
-  "name": "preact-r-dom",
-  "description": "Preact DOM wrapper",
+  "name": "inferno-r-dom",
+  "description": "Inferno DOM wrapper",
   "version": "2.4.0",
-  "homepage": "https://github.com/futpib/preact-r-dom",
+  "homepage": "https://github.com/futpib/inferno-r-dom",
   "contributors": [
     {
       "name": "Matt Morgan",
@@ -15,22 +15,22 @@
   ],
   "keywords": [
     "react",
-    "preact",
+    "inferno",
     "react.js",
     "markup",
     "dom"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/futpib/preact-r-dom.git"
+    "url": "git://github.com/futpib/inferno-r-dom.git"
   },
   "bugs": {
-    "url": "https://github.com/futpib/preact-r-dom/issues"
+    "url": "https://github.com/futpib/inferno-r-dom/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/futpib/preact-r-dom/blob/master/LICENSE"
+      "url": "https://github.com/futpib/inferno-r-dom/blob/master/LICENSE"
     }
   ],
   "main": "index.js",
@@ -39,16 +39,17 @@
     "just-omit": "^1.0.1"
   },
   "peerDependencies": {
-    "preact": "*"
+    "inferno-create-element": "*"
   },
   "devDependencies": {
     "for-each": "^0.3.2",
+    "inferno": "^7.0.5",
+    "inferno-create-class": "^7.0.5",
+    "inferno-create-element": "^7.0.5",
+    "inferno-server": "^7.0.5",
     "istanbul": "^0.3.5",
     "lint-trap": "^0.4.9",
     "opn": "^1.0.0",
-    "preact": "^8.4.2",
-    "preact-compat": "^3.18.4",
-    "preact-render-to-string": "^4.1.0",
     "tap-spec": "^1.0.0",
     "tape": "^3.0.0",
     "xtend": "^4.0.0"

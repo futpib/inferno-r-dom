@@ -1,7 +1,7 @@
 'use strict';
 var console = require('console');
 var forEach = require('for-each');
-var render = require('preact-render-to-string');
+var render = require('inferno-server').renderToString;
 var test = require('tape');
 
 var createComponent = require('./fixtures/create-component');
