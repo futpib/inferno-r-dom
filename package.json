@@ -47,7 +47,7 @@
     "inferno-create-class": "^7.0.5",
     "inferno-create-element": "^7.0.5",
     "inferno-server": "^7.0.5",
-    "istanbul": "^0.3.5",
+    "istanbul": "^0.4.0",
     "lint-trap": "^0.4.9",
     "opn": "^5.0.0",
     "tap-spec": "^1.0.0",
