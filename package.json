@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "for-each": "^0.3.2",
-    "inferno": "^7.0.5",
+    "inferno": "^8.0.0",
     "inferno-create-class": "^7.0.5",
     "inferno-create-element": "^7.0.5",
     "inferno-server": "^7.0.5",

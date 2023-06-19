@@ -658,12 +658,22 @@ inferno-shared@7.0.5:
   resolved "https://registry.yarnpkg.com/inferno-shared/-/inferno-shared-7.0.5.tgz#84b6613389a9d2a6876f91d4b2b40f42aeaf2f72"
   integrity sha512-MgLbTjjDjJmq8UbLWJCsU+6VDpCC69cPrKVC3WQcFUVAT635ZQ5QofCxginC01CLRfn+S1O97xOqLQGC2yaDbw==
 
+inferno-shared@8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/inferno-shared/-/inferno-shared-8.0.0.tgz#e0ce6ab8b5a1e21653a04573fb125ff56544075f"
+  integrity sha512-IyS3IGr+O8nLfaOH+VlM/LF9l1V7oBStxelf78NqOz8aqnSJW+BVLxrcGsdTKSUwiv0RzpDf3s/swvS76LdTXQ==
+
 inferno-vnode-flags@7.0.5:
   version "7.0.5"
   resolved "https://registry.yarnpkg.com/inferno-vnode-flags/-/inferno-vnode-flags-7.0.5.tgz#09d2d9b1d119fc85527035c4d52793bd0069fc5f"
   integrity sha512-T3eFUyajjrFsqIOqpDFFeL6xZnoykSfCRaA3ikvCRex9k0icNHix/6No/0R9odWcs8zncmnr/Q/vQTru+2ukWg==
 
-inferno@7.0.5, inferno@^7.0.5:
+inferno-vnode-flags@8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/inferno-vnode-flags/-/inferno-vnode-flags-8.0.0.tgz#be52e4752e2e7443b4e74787f970fdc3ec9514ef"
+  integrity sha512-dxC6mKHaMMLaaA9Ng6Fhw/xdEyyYXCmVR7+/U/1rO8181+7XMh/Upk0jHn9yssZL4T5ATxZrXZIzvJm79T4LRg==
+
+inferno@7.0.5:
   version "7.0.5"
   resolved "https://registry.yarnpkg.com/inferno/-/inferno-7.0.5.tgz#0ad099a1d7562dd8fbe2811fcf489f65380558f0"
   integrity sha512-3pAU2Zy0dD3tHhyMKss27fIuV3w1cRAr/RZSqSRZ7/q95+624TM0YERtS/GefA/6MXfF4Iar+30JKEGKESZpGw==
@@ -671,6 +681,15 @@ inferno@7.0.5, inferno@^7.0.5:
     inferno-shared "7.0.5"
     inferno-vnode-flags "7.0.5"
     opencollective "^1.0.3"
+
+inferno@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/inferno/-/inferno-8.0.0.tgz#06bef21d5f81d794bc0356f5676326654619f68a"
+  integrity sha512-VrO86gl22DtuATQlr6MUdZDWyo5L0JXngk86wOjcGvXhf2oNxonZa2dIQUd6xsVlVyWR4WLU8D4fGx8YWzDJiw==
+  dependencies:
+    inferno-shared "8.0.0"
+    inferno-vnode-flags "8.0.0"
+    opencollective-postinstall "^2.0.3"
 
 inflight@^1.0.4:
   version "1.0.6"
@@ -1053,6 +1072,11 @@ onetime@^2.0.0:
   integrity sha1-BnQoIw/WdEOyeUsiu6UotoZ5YtQ=
   dependencies:
     mimic-fn "^1.0.0"
+
+opencollective-postinstall@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/opencollective-postinstall/-/opencollective-postinstall-2.0.3.tgz#7a0fff978f6dbfa4d006238fbac98ed4198c3259"
+  integrity sha512-8AV/sCtuzUeTo8gQK5qDZzARrulB3egtLzFgteqB2tcT4Mw7B8Kt7JcDHmltjz6FOAHsvTevk70gZEbhM4ZS9Q==
 
 opencollective@^1.0.3:
   version "1.0.3"
